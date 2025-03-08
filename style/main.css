@@ -4,6 +4,9 @@ body {
   font-size: 30px;
   background-color: black;
   background-image: url("../images/recipe-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   color: wheat;
 }
 
