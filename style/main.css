@@ -3,5 +3,12 @@ body {
   text-align: center;
   font-size: 30px;
   background-color: black;
+  background-image: url("../images/recipe-background.jpg");
   color: wheat;
 }
+
+.index > ul {
+  display: inline-block;
+
+}
+  
