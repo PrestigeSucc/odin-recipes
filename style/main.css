@@ -1,17 +1,25 @@
 body {
+  /* font stuff */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-align: center;
   font-size: 30px;
-  background-color: black;
+  color: black;
+  /* background image stuff */
+  background-color: white;
   background-image: url("../images/recipe-background.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  color: wheat;
+  filter: brightness(100%);
+  padding-top: 200px;
+  padding-bottom: 500px;
 }
 
 .index > ul {
   display: inline-block;
 
 }
-  
+
+a:link, a:visited, a:hover, a:active {
+  color: darkred;
+}
